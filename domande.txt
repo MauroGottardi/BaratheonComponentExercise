@@ -1,0 +1,2 @@
+- un po' più di chiarezza sullo scope di this nel componente
+- come includere librerie e cose nel componente per renderlo indipendente

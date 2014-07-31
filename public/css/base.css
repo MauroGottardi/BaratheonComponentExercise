@@ -1,0 +1,29 @@
+.button{
+  display: inline-block;
+  height: 20px;
+  width: 90%;
+  border: 1px solid black;
+  padding: 7px 5px 5px 5px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.baratheon-component{
+  width: 24%;
+  float: left;
+  margin: 3px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.baratheon-component li{
+  text-align: left;
+}
+
+.too_much_wine{
+  font-size: 100px;
+  text-align: center;
+}

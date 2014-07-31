@@ -1,0 +1,22 @@
+{
+  "name": "component-exercise",
+  "author": "Gottino",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-js": "watchify -t jadeify ./component/*.js -o ./public/js/bundle.js -dv",
+    "build-js": "browserify -t jadeify ./component/*.js -o ./public/js/bundle.js -dv",
+    "serve": "node ./app.js",
+    "watch-serve": "supervisor ./app.js",
+    "start-dev": "npm run watch-js & npm run watch-serve",
+    "start": "npm run build-js & npm run serve"
+  },
+  "dependencies": {
+    "browserify": "^4.2.3",
+    "express": "^4.7.2",
+    "jade": "^1.4.2",
+    "jadeify": "^2.4.0"
+  },
+  "devDependencies": {}
+}
